@@ -139,6 +139,9 @@ nav ul li a:hover::after{
 #services{
 	padding: 30px 0;
 }
+.subtitle{
+	color: rgb(26, 221, 20);
+}
 .services-list{
 	display: grid;
 	grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
@@ -249,6 +252,10 @@ nav ul li a:hover::after{
 .btn:hover{
 	background:rgba(26, 221, 20);
 }
+.project-details {
+	display: none;
+}
+
 .contact-left{
 	flex-basis:35% ;
 
